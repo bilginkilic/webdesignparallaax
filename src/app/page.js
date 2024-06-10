@@ -4,6 +4,7 @@ import Lenis from 'lenis'
 import Intro from '@/components/Intro';
 import Description from '@/components/Description';
 import Section from '@/components/Section';
+import Footer from '@/components/footer';
 export default function Home() {
 
   useEffect( () => {
@@ -22,9 +23,10 @@ export default function Home() {
       <Intro />
       <Description />
       <Section />
-      <Section />
-      <Description />
-      <div className='h-screen'></div>
+     
+      <div className='h-screen'></div> <Footer/>
     </main>
+ 
+    
   );
 }
