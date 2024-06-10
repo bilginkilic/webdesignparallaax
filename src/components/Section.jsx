@@ -18,8 +18,10 @@ export default function Section() {
         style={{clipPath: "polygon(0% 0, 100% 0%, 100% 100%, 0 100%)"}}
         >
         <div className='relative z-10 p-20 mix-blend-difference text-white w-full h-full flex flex-col justify-between'>
-            <p className='w-[50vw] text-[2vw] self-end uppercase mix-blend-difference'>Beauty and quality need the right time to be conceived and realised even in a world that is in too much of a hurry.</p>
-            <p className='text-[5vw] uppercase mix-blend-difference'>Background Parallax</p>
+            <p className='w-[50vw] text-[2vw] self-end uppercase mix-blend-difference'>
+            I’m a skilled Software Architect blending C#, .NET, and React with a fresh passion for sleek web design. I create efficient, user-friendly systems and modern interfaces, boosting operations and enhancing user experiences.</p>
+            <p className='text-[5vw] uppercase mix-blend-difference'>Revolutionizing
+             Tech with Cutting-Edge Web Design and Development</p>
         </div>
         <div className='fixed top-[-10vh] left-0 h-[120vh] w-full'>
             <motion.div style={{y}} className='relative w-full h-full'>

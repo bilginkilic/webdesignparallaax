@@ -22,6 +22,8 @@ export default function Home() {
       <Intro />
       <Description />
       <Section />
+      <Section />
+      <Description />
       <div className='h-screen'></div>
     </main>
   );
