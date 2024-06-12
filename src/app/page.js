@@ -4,7 +4,7 @@ import Lenis from 'lenis'
 import Intro from '@/components/Intro';
 import Description from '@/components/Description';
 import Section from '@/components/Section';
-import Footer from '@/components/footer';
+import Footer from '@/components/Footer';
 export default function Home() {
 
   useEffect( () => {
@@ -18,15 +18,17 @@ export default function Home() {
     requestAnimationFrame(raf)
   }, [])
 
-  return (
+  return ( 
     <main>
       <Intro />
       <Description />
       <Section />
-     
-      <div className='h-screen'></div> <Footer/>
+    
+      <div className='h-screen'>deneme</div> 
+    <Footer/>
+      
     </main>
  
-    
+ 
   );
 }

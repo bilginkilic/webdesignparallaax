@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import Background from '../../public/images/1.jpg';
+import Background from '../../public/images/1light.jpg';
 import { useScroll, useTransform, motion } from 'framer-motion';
 import { useRef } from 'react';
 
