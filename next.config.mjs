@@ -1,4 +1,9 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {};
-
-export default nextConfig;
+const nextConfig = {
+    swcMinify: true, // Enable SWC minification
+    compiler: {
+      styledComponents: true, // Example: enable styled-components with SWC
+    }
+  };
+  
+  export default nextConfig;
